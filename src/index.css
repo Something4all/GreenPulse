@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-brand-dark: #1B3022;
+  --color-brand-muted: #4A5D4A;
+  --color-brand-subtle: #6B7E6B;
+  --color-brand-green: #2D5A27;
+  --color-brand-light: #E8F3E8;
+  --color-brand-extralight: #F0FAF0;
+  --color-brand-accent: #A8E6CF;
+  --color-brand-orange: #F27D26;
+  --color-brand-border: #DDE6DD;
+  --color-brand-bg: #F4F7F4;
+}
